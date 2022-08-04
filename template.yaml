@@ -9,6 +9,18 @@ Description: >
 Globals:
   Function:
     Timeout: 3
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: sam-app-demo
+    Description: my first sam app
+    Author: Kirity
+    SpdxLicenseId: Apache-2.0
+    LicenseUrl: LICENSE.txt
+    ReadmeUrl: README.md
+    Labels: ['tests']
+    HomePageUrl: https://github.com/Kirity/sam-app-demo.git
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/Kirity/sam-app-demo.git
 
 Resources:
   HelloWorldFunction:
